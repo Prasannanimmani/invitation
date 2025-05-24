@@ -4,87 +4,104 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ram ❤️ Seetha Wedding Invitation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: #fff0f5;
-      color: #333;
+      font-family: 'Open Sans', sans-serif;
+      background: #fff8f0;
+      color: #444;
     }
     header {
-      background: #b76e79;
+      background: linear-gradient(135deg, #ffb6b9, #fad0c4);
       color: white;
-      padding: 40px 20px;
+      padding: 60px 20px;
       text-align: center;
     }
     header h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3.5rem;
       margin: 0;
-      font-size: 2.5rem;
     }
     header p {
       font-style: italic;
+      font-size: 1.2rem;
       margin-top: 10px;
     }
     section {
-      padding: 30px 20px;
+      padding: 40px 20px;
       text-align: center;
     }
     .names {
-      font-size: 1.8rem;
+      font-size: 2rem;
       margin-bottom: 20px;
+      color: #b76e79;
     }
     .date-time, .venue {
       font-size: 1.2rem;
       margin-bottom: 15px;
     }
-    .map {
-      margin-top: 20px;
+    .venue a {
+      color: #d6336c;
+      text-decoration: none;
     }
-    footer {
-      background: #f4c2c2;
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9rem;
+    .venue a:hover {
+      text-decoration: underline;
     }
     .image-placeholder, .video-placeholder {
       width: 80%;
-      max-width: 400px;
-      height: 250px;
-      background: #eee;
-      border: 2px dashed #ccc;
-      margin: 20px auto;
+      max-width: 450px;
+      height: 260px;
+      background: #ffeef0;
+      border: 2px dashed #ffb6b9;
+      border-radius: 10px;
+      margin: 30px auto;
       display: flex;
       align-items: center;
       justify-content: center;
       font-style: italic;
-      color: #999;
+      color: #b76e79;
+    }
+    footer {
+      background: #f8d7da;
+      text-align: center;
+      padding: 25px;
+      font-size: 1rem;
+      color: #6c1e2e;
+    }
+    .fade-in {
+      animation: fadeIn 1.5s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
     }
   </style>
 </head>
 <body>
-  <header>
+  <header class="fade-in">
     <h1>Ram ❤️ Seetha</h1>
     <p>"Two hearts, one soul"</p>
   </header>
 
-  <section>
+  <section class="fade-in">
     <div class="names">You're invited to the wedding of Ram and Seetha</div>
-    <div class="date-time">On 6th June 2025 at 11:00 AM</div>
+    <div class="date-time">📅 6th June 2025 | 🕚 11:00 AM</div>
     <div class="venue">
-      Venue: Satya Sai Gardens, Madikonda<br>
+      📍 Venue: Satya Sai Gardens, Madikonda<br>
       <a href="https://www.google.com/maps/place/Satya+Sai+Gardens,+Madikonda" target="_blank">View on Google Maps</a>
     </div>
 
-    <div class="image-placeholder">Groom Photo Placeholder</div>
-    <div class="image-placeholder">Bride Photo Placeholder</div>
-    <div class="image-placeholder">Engagement Photo Placeholder</div>
+    <div class="image-placeholder">Groom Photo Coming Soon</div>
+    <div class="image-placeholder">Bride Photo Coming Soon</div>
+    <div class="image-placeholder">Engagement Photo Coming Soon</div>
 
-    <div class="video-placeholder">Pre-wedding video will be shown here</div>
+    <div class="video-placeholder">Pre-wedding video will be added here</div>
   </section>
 
-  <footer>
-    We can't wait to celebrate with you!<br>
-    — Ram & Seetha
+  <footer class="fade-in">
+    We can't wait to celebrate this beautiful day with you!<br>
+    — With love, Ram & Seetha 💕
   </footer>
 </body>
 </html>
