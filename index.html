@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ram ❤️ Seetha Wedding Invitation</title>
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kavya ❤️ Ajay Wedding Invitation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&display=swap" rel="stylesheet"/>
   <style>
     body {
       margin: 0;
@@ -48,19 +48,22 @@
     .venue a:hover {
       text-decoration: underline;
     }
-    .image-placeholder, .video-placeholder {
-      width: 80%;
-      max-width: 450px;
-      height: 260px;
-      background: #ffeef0;
-      border: 2px dashed #ffb6b9;
-      border-radius: 10px;
-      margin: 30px auto;
+    .photo-row {
       display: flex;
-      align-items: center;
       justify-content: center;
-      font-style: italic;
-      color: #b76e79;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin: 30px 0;
+    }
+    .photo-row img, .couple-photo img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .couple-photo {
+      margin: 40px 0;
     }
     footer {
       background: #f8d7da;
@@ -80,28 +83,36 @@
 </head>
 <body>
   <header class="fade-in">
-    <h1>Ram ❤️ Seetha</h1>
+    <h1>Kavya ❤️ Ajay</h1>
     <p>"Two hearts, one soul"</p>
   </header>
 
   <section class="fade-in">
-    <div class="names">You're invited to the wedding of Ram and Seetha</div>
+    <div class="names">You're invited to the wedding of Kavya and Ajay</div>
     <div class="date-time">📅 6th June 2025 | 🕚 11:00 AM</div>
     <div class="venue">
       📍 Venue: Satya Sai Gardens, Madikonda<br>
       <a href="https://www.google.com/maps/place/Satya+Sai+Gardens,+Madikonda" target="_blank">View on Google Maps</a>
     </div>
 
-    <div class="image-placeholder">Groom Photo Coming Soon</div>
-    <div class="image-placeholder">Bride Photo Coming Soon</div>
-    <div class="image-placeholder">Engagement Photo Coming Soon</div>
+    <div class="photo-row">
+      <div>
+        <img src="groom1.jpg" alt="Groom - Ajay">
+      </div>
+      <div>
+        <img src="bride1.jpg" alt="Bride - Kavya">
+      </div>
+    </div>
 
-    <div class="video-placeholder">Pre-wedding video will be added here</div>
+    <div class="couple-photo">
+      <h3 style="color:#b76e79;">Together Forever 💑</h3>
+      <img src="combined1.jpg" alt="Engagement or Couple Photo">
+    </div>
   </section>
 
   <footer class="fade-in">
     We can't wait to celebrate this beautiful day with you!<br>
-    — With love, Ram & Seetha 💕
+    — With love, Kavya & Ajay 💕
   </footer>
 </body>
 </html>
